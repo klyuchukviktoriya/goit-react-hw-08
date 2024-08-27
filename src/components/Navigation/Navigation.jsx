@@ -7,7 +7,7 @@ import { selectIsLoggedIn } from "../../redux/auth/selectors";
 export default function Navigation() {
     const isLoggedIn = useSelector(selectIsLoggedIn);
 
-    console.log('Is Logged In:', isLoggedIn); // Для отладки
+    console.log('Is Logged In:', isLoggedIn);
 
     const classLink = ({ isActive }) => clsx(s.link, isActive && s.active);
 
