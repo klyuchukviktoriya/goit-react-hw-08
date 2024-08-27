@@ -1,8 +1,10 @@
 import s from "./Contact.module.css"
 import { BiUser, BiPhone } from "react-icons/bi"
 import { useDispatch, useSelector } from "react-redux"
-import { selectContacts } from "../../redux/contactsSlice";
-import { deleteContact } from "../../redux/contactsOps";
+import { selectContacts } from "../../redux/contacts/selectors";
+import { deleteContact } from "../../redux/contacts/operations";
+
+
 export default function Contact({ id }) {
 
     const dispatch = useDispatch();
