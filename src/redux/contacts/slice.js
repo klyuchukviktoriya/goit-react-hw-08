@@ -3,12 +3,7 @@ import { getContacts, deleteContact, addContact, editContact } from "./operation
 import { logout } from "../auth/operations";
 
 const initialState = {
-    items: [
-        {
-            name: "Jacob Mercer",
-            number: "761-23-96",
-        },
-    ],
+    items: [],
     loading: false,
     error: null,
 };
