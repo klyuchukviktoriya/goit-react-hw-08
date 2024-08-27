@@ -1,0 +1,10 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.error {
+  margin-bottom: 20px;
+}
